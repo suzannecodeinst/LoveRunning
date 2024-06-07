@@ -38,7 +38,40 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" method="POST" id="signup-form">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+                <!-- text input buttons -->
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" id="email-address" name="email-address" class="text-input" required>
+                <br>
+                <!-- radio buttons -->
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" id="road" name="running_preference" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" id="trail" name="running_preference" value="trail" required >
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" id="both" name="running_preference" value="both" required>
+                    </div>
+                </div>
+                <!-- submit button -->
+                <button type="submit" class="join-button">Let's Run!</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
