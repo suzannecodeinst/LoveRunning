@@ -124,7 +124,7 @@ main {
     margin: 20px auto;
 }
 
-#reasons > h2 {
+#reasons  h2 {
     font-size: 280%;
     text-align: center;
     margin-bottom: 20px;
@@ -135,14 +135,34 @@ main {
     line-height: 20px;
 }
 
+/* could also be directed as hr*/
 .benefits-line {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 
 }
 
+/* this could also be directed with #benefits p */
 .benefits-text {
     padding: 0 20px;
+}
+
+/* benefits circle image */
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    margin-bottom: 20px;
+    /* make a circle of the image */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;   
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
